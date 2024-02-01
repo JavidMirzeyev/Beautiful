@@ -47,7 +47,6 @@ section {
 }
 
 #browse .textbox {
-  width: 500px;
   text-align: center;
 }
 #browse .textbox h1 {
@@ -80,7 +79,7 @@ section {
   padding: 30px;
 }
 #browse .box .imgbox {
-  width: 150px;
+  width: 155px;
   border-radius: 10px;
 }
 #browse .box .textbox {
@@ -140,10 +139,6 @@ section {
   background-color: #38b6c1;
   color: white;
 }
-#callour .imgbox {
-  width: 500px;
-}
-
 header {
   padding: 20px 0;
 }
@@ -160,7 +155,7 @@ header nav .home-color {
 }
 
 #order .imgbox {
-  width: 600px;
+  margin: 0 0 0 25px;
 }
 #order .textbox h1 {
   font-weight: 700;
@@ -213,8 +208,8 @@ header nav .home-color {
 #thehome .textbox h1 {
   color: #36b3bd;
   font-size: 58px;
+  margin: 0 140px 0 0;
   font-weight: 700;
-  width: 400px;
 }
 #thehome .textbox h5 {
   color: #676f8b;
@@ -229,10 +224,6 @@ header nav .home-color {
   font-size: 18px;
   border-radius: 5px;
 }
-#thehome .imgbox {
-  width: 500px;
-}
-
 #works h1 {
   font-weight: 700;
   font-size: 56px;
@@ -240,7 +231,8 @@ header nav .home-color {
   margin-bottom: 60px;
 }
 #works .box .imgbox {
-  width: 320px;
+  margin: 0 0 0 25px;
+  width: 300px;
 }
 #works .box .textbox {
   padding: 35px 55px;
