@@ -45,6 +45,23 @@ section {
 #beautiful .box h4 {
   font-size: 18px;
 }
+@media screen and (max-width: 992px) {
+  #beautiful .box h1 {
+    margin: 0 25px;
+  }
+  #beautiful .box h5 {
+    margin: 15px;
+  }
+  #beautiful .box .btn {
+    margin: 25px 0 15px 180px;
+  }
+  #beautiful .box .imgbox {
+    margin: 25px 0 15px 200px;
+  }
+  #beautiful .box h4 {
+    margin: 15px 0 45px 130px;
+  }
+}
 
 #browse .textbox {
   text-align: center;
@@ -152,6 +169,18 @@ header nav a {
 }
 header nav .home-color {
   color: #74bebc;
+}
+header .menu {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  header .menu {
+    color: #050101;
+    display: flex;
+  }
+  header nav {
+    display: none;
+  }
 }
 
 #order .imgbox {
