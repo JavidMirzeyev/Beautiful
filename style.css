@@ -232,6 +232,34 @@ header .menu {
   color: white;
   border-radius: 5px;
 }
+@media screen and (max-width: 449px) {
+  #order .textbox h1 {
+    text-align: center;
+    margin: 0 70px;
+  }
+  #order .textbox h5 {
+    text-align: center;
+    margin: 20px 50px 35px;
+  }
+  #order .textbox .btn {
+    text-align: center;
+    margin-left: 140px;
+  }
+}
+@media (min-width: 450px) and (max-width: 767px) {
+  #order .textbox h1 {
+    text-align: center;
+    margin: 60px 70px 0;
+  }
+  #order .textbox h5 {
+    text-align: center;
+    margin: 20px 50px 35px;
+  }
+  #order .textbox .btn {
+    text-align: center;
+    margin-left: 180px;
+  }
+}
 
 #support .textbox h1 {
   font-size: 56px;
@@ -322,8 +350,5 @@ header .menu {
 @media (min-width: 450px) and (max-width: 767px) {
   #works .box .imgbox {
     margin: 0 0 45px 90px;
-  }
-  #works .box .textbox h4 {
-    padding: 0;
   }
 }/*# sourceMappingURL=style.css.map */
