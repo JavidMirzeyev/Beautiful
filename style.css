@@ -39,7 +39,7 @@ section {
   color: white;
 }
 #beautiful .box .imgbox {
-  width: 110px;
+  width: 100px;
   margin: 20px 0 10px;
 }
 #beautiful .box h4 {
@@ -112,7 +112,6 @@ section {
   border-radius: 5px;
 }
 #browse .bgc {
-  padding: 12px 36px;
   background-color: #3cc1d8;
   color: white;
 }
@@ -189,9 +188,12 @@ section {
 }
 #callour .textbox .btn {
   font-size: 18px;
-  padding: 12px 30px;
+  padding: 10px 30px;
   background-color: #38b6c1;
   color: white;
+}
+#callour .imgbox {
+  padding: 0 35px;
 }
 @media screen and (max-width: 449px) {
   #callour .textbox h1 {
@@ -307,7 +309,7 @@ header .menu {
 }
 #support .textbox .btn {
   font-size: 20px;
-  padding: 10px 30px;
+  padding: 10px 25px;
   margin: 30px 0 0 40px;
   background-color: white;
   color: #38b6c1;
