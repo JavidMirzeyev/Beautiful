@@ -377,11 +377,11 @@ header .menu {
   margin-bottom: 60px;
 }
 #works .box .imgbox {
-  margin: 0 0 0 25px;
+  margin-left: 25px;
   width: 300px;
 }
 #works .box .textbox {
-  padding: 35px 25px;
+  padding: 35px 15px;
 }
 #works .box .textbox h2 {
   font-weight: 700;
