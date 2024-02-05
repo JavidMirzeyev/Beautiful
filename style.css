@@ -45,7 +45,7 @@ section {
 #beautiful .box h4 {
   font-size: 18px;
 }
-@media (max-width: 499px) {
+@media (max-width: 450px) {
   #beautiful .box {
     text-align: center;
   }
@@ -59,14 +59,13 @@ section {
     margin: 25px 0 15px 100px;
   }
   #beautiful .box h4 {
-    text-align: center;
     margin: 15px 0 45px 20px;
   }
   #beautiful .box .btn {
     margin: 25px 0 0;
   }
 }
-@media (min-width: 500px) and (max-width: 990px) {
+@media (min-width: 451px) and (max-width: 990px) {
   #beautiful .box {
     text-align: center;
   }
@@ -80,7 +79,6 @@ section {
     margin: 25px 0 15px 200px;
   }
   #beautiful .box h4 {
-    text-align: center;
     margin: 15px 0 45px 20px;
   }
   #beautiful .box .btn {
@@ -283,6 +281,21 @@ header .menu {
   font-size: 18px;
   border-radius: 5px;
 }
+@media screen and (max-width: 767px) {
+  #thehome .textbox {
+    text-align: center;
+  }
+  #thehome .textbox h1 {
+    margin: 0 55px;
+  }
+  #thehome .textbox h5 {
+    margin: 18px 30px 40px;
+  }
+  #thehome .textbox .btn {
+    margin-bottom: 60px;
+  }
+}
+
 #works h1 {
   font-weight: 700;
   font-size: 56px;
