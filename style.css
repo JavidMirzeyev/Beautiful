@@ -269,7 +269,7 @@ header .menu {
 @media screen and (max-width: 449px) {
   #order .textbox h1 {
     text-align: center;
-    margin: 0 70px;
+    margin: 80px 70px;
   }
   #order .textbox h5 {
     text-align: center;
