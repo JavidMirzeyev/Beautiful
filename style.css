@@ -246,7 +246,7 @@ header .menu {
 }
 
 #order .imgbox {
-  margin: 0 0 0 25px;
+  margin-left: 25px;
 }
 #order .textbox h1 {
   font-weight: 700;
@@ -315,9 +315,19 @@ header .menu {
 #support .bgc {
   background-color: #35b6c1;
 }
-@media (max-width: 999px) {
+@media (max-width: 767px) {
   #support .bgc {
     margin: 20px 0;
+    padding: 45px 2px;
+  }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  #support .bgc {
+    padding: 5px 2px;
+  }
+  #support .textbox h1 {
+    margin: 0 10px 0 10px;
+    font-size: 50px;
   }
 }
 
