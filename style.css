@@ -86,6 +86,9 @@ section {
   }
 }
 
+#browse {
+  background-color: #f5fbfc;
+}
 #browse .textbox {
   text-align: center;
 }
@@ -116,7 +119,9 @@ section {
   color: white;
 }
 #browse .box {
-  padding: 30px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 5px;
 }
 #browse .box .imgbox {
   width: 155px;
