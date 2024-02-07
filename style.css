@@ -90,6 +90,7 @@ section {
   background-color: #f5fbfc;
 }
 #browse .textbox {
+  width: 500px;
   text-align: center;
 }
 #browse .textbox h1 {
@@ -124,7 +125,7 @@ section {
   margin: 5px;
 }
 #browse .box .imgbox {
-  width: 155px;
+  width: 150px;
   border-radius: 10px;
 }
 #browse .box .textbox {
@@ -160,8 +161,6 @@ section {
   padding: 7px 20px;
 }
 #browse .big {
-  background-color: #3cc1d8;
-  color: white;
   padding: 17px 53px;
   margin-top: 50px;
 }
