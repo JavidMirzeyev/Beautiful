@@ -220,7 +220,7 @@ section {
     margin: 20px 35px 45px;
   }
   #callour .textbox .btn {
-    margin: 0 0 65px 100px;
+    margin-bottom: 65px;
   }
 }
 @media (min-width: 450px) and (max-width: 767px) {
@@ -232,7 +232,7 @@ section {
     margin: 20px 35px 45px;
   }
   #callour .textbox .btn {
-    margin: 0 0 65px 180px;
+    margin-bottom: 65px;
   }
 }
 
@@ -293,10 +293,6 @@ header .menu {
     text-align: center;
     margin: 0 50px 35px;
   }
-  #order .textbox .btn {
-    text-align: center;
-    margin-left: 120px;
-  }
 }
 @media (min-width: 450px) and (max-width: 767px) {
   #order .textbox h1 {
@@ -306,10 +302,6 @@ header .menu {
   #order .textbox h5 {
     text-align: center;
     margin: 20px 50px 35px;
-  }
-  #order .textbox .btn {
-    text-align: center;
-    margin-left: 180px;
   }
 }
 
