@@ -275,6 +275,10 @@ header .menu {
     color: #050101;
     display: flex;
   }
+  header .menu .minibox {
+    background-color: #dee7e9;
+    padding: 14px 16px;
+  }
   header nav {
     display: none;
   }
