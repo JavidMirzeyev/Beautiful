@@ -15,7 +15,7 @@ section {
 }
 
 #beautiful {
-  background-color: #f4fafb;
+  background-color: #0a3e47;
 }
 #beautiful .box h1 {
   font-weight: 700;
@@ -201,7 +201,7 @@ section {
 }
 #callour .textbox h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 55px;
   color: #36b3bd;
 }
 #callour .textbox h5 {
@@ -223,6 +223,9 @@ section {
   #callour .textbox {
     text-align: center;
   }
+  #callour .textbox h1 {
+    font-size: 40px;
+  }
   #callour .textbox h5 {
     margin: 20px 35px 45px;
   }
@@ -233,6 +236,9 @@ section {
 @media (min-width: 300px) and (max-width: 449px) {
   #callour .textbox {
     text-align: center;
+  }
+  #callour .textbox h1 {
+    font-size: 40px;
   }
   #callour .textbox h5 {
     margin: 20px 35px 45px;
@@ -286,7 +292,7 @@ header .menu {
 
 #order .textbox h1 {
   font-weight: 700;
-  font-size: 56px;
+  font-size: 55px;
   color: #36b3bd;
 }
 #order .textbox h5 {
@@ -310,6 +316,7 @@ header .menu {
     text-align: center;
   }
   #order .textbox h1 {
+    font-size: 40px;
     margin: 80px 70px;
   }
   #order .textbox h5 {
@@ -331,7 +338,7 @@ header .menu {
 }
 
 #support .textbox h1 {
-  font-size: 56px;
+  font-size: 55px;
   font-weight: 700;
   color: white;
   margin: 0 70px 0 40px;
@@ -351,6 +358,9 @@ header .menu {
   background-color: #35b6c1;
 }
 @media (max-width: 767px) {
+  #support .textbox h1 {
+    font-size: 45px;
+  }
   #support .bgc {
     margin: 20px 0;
     padding: 45px 2px;
@@ -371,7 +381,7 @@ header .menu {
 }
 #thehome .textbox h1 {
   color: #36b3bd;
-  font-size: 58px;
+  font-size: 55px;
   margin: 0 140px 0 0;
   font-weight: 700;
 }
@@ -393,6 +403,7 @@ header .menu {
     text-align: center;
   }
   #thehome .textbox h1 {
+    font-size: 40px;
     margin: 0 55px;
   }
   #thehome .textbox h5 {
