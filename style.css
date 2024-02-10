@@ -121,7 +121,7 @@ section {
 #browse .textbox h4 {
   font-size: 18px;
   color: #6c7480;
-  margin: 20px 0;
+  margin: 20px 25px;
   line-height: 1.2;
 }
 #browse .textbox h4 span {
@@ -131,7 +131,7 @@ section {
 #browse .btn {
   font-size: 16px;
   border: 0.5px solid #bdbdbd;
-  padding: 12px 40px;
+  padding: 10px 40px;
   margin: 0 20px;
   border-radius: 5px;
 }
@@ -181,7 +181,7 @@ section {
   padding: 7px 20px;
 }
 #browse .big {
-  padding: 17px 53px;
+  padding: 15px 40px;
   margin-top: 50px;
 }
 @media screen and (max-width: 400px) {
@@ -218,7 +218,7 @@ section {
   color: white;
 }
 #callour .imgbox {
-  padding: 0 35px;
+  padding: 0 45px;
 }
 @media (max-width: 299px) {
   #callour .textbox {
@@ -309,9 +309,6 @@ header .menu {
   color: white;
   border-radius: 5px;
 }
-#order .imgbox {
-  margin-left: 25px;
-}
 @media screen and (max-width: 449px) {
   #order .textbox {
     text-align: center;
@@ -382,8 +379,8 @@ header .menu {
 }
 #thehome .textbox h1 {
   color: #36b3bd;
-  font-size: 55px;
-  margin: 0 140px 0 0;
+  font-size: 60px;
+  padding: 0 140px 0 0;
   font-weight: 700;
 }
 #thehome .textbox h5 {
