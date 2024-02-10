@@ -15,7 +15,7 @@ section {
 }
 
 #beautiful {
-  background-color: #0a3e47;
+  background-color: #f4fafb;
 }
 #beautiful .box h1 {
   font-weight: 700;
@@ -189,6 +189,7 @@ section {
     padding: 10px 0;
   }
   #browse .btn {
+    padding: 8px 25px;
     margin: 0 2px;
   }
   #browse .big {
