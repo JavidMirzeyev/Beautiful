@@ -189,7 +189,7 @@ section {
     padding: 10px 0;
   }
   #browse .btn {
-    margin: 0 5px;
+    margin: 0 2px;
   }
   #browse .big {
     margin-top: 50px;
@@ -410,7 +410,7 @@ header .menu {
   margin-bottom: 60px;
 }
 #works .box .imgbox {
-  padding: 0 20px;
+  padding: 0 25px;
 }
 #works .box .textbox {
   padding: 35px 15px;
