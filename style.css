@@ -397,6 +397,9 @@ header .menu {
   font-size: 18px;
   border-radius: 5px;
 }
+#thehome .imgbox {
+  padding: 0 45px;
+}
 @media screen and (max-width: 767px) {
   #thehome .textbox {
     text-align: center;
