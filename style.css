@@ -128,7 +128,7 @@ section {
   color: #3cc1d8;
   text-decoration-line: underline;
 }
-#browse .btn {
+#browse .boxes .btn {
   font-size: 16px;
   border: 0.5px solid #bdbdbd;
   padding: 10px 40px;
@@ -184,16 +184,18 @@ section {
   padding: 15px 40px;
   margin-top: 50px;
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 517px) {
+  #browse .boxes {
+    text-align: center;
+  }
+  #browse .boxes .btn {
+    padding: 10px 80px;
+  }
   #browse .box {
     padding: 10px 0;
   }
   #browse .btn {
     padding: 8px 25px;
-    margin: 0 2px;
-  }
-  #browse .big {
-    margin-top: 50px;
   }
 }
 
