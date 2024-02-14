@@ -103,9 +103,9 @@ section {
   color: white;
 }
 #browse .box {
-  background-color: #ffffff;
+  background-color: white;
   padding: 20px;
-  margin: 5px;
+  margin: 10px 0;
 }
 #browse .box .imgbox {
   width: 150px;
@@ -141,6 +141,7 @@ section {
 #browse .box .textbox .add .btn {
   background-color: #3cc1d8;
   color: white;
+  margin-left: 7px;
   padding: 7px 20px;
 }
 #browse .big {
