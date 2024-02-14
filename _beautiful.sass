@@ -1,67 +1,42 @@
 #beautiful
     background-color: #f4fafb
     .box
+        // text-align: center
+        display: flex
+        flex-direction: column
         h1
             font-weight: 700
             font-size: 60px
-            margin-right: 80px
+            // margin-right: 80px
         span
             color: #37b7c3
         h5
             color: #676f8b
             font-size: 18px
-            margin: 25px 75px 50px 0
+            margin: 25px 40px 50px 0
             line-height: 1.3
         .btn
             padding: 12px 30px
             font-size: 18px
             border-radius: 5px
             background-color: #38b6c1
+            align-self: start
             color: #ffff
         .imgbox
             width: 100px
             margin: 20px 0 10px
+            align-self: start
         h4
             font-size: 18px
 
-    @media ( max-width: 360px)
+    @media ( max-width: 991px)
         .box
             text-align: center
-            h1
-                margin: 0 25px
-            h5
-                margin: 15px
-            .imgbox
-                margin: 25px 0 0 100px
-            h4
-                margin: 15px 0 85px 20px
             .btn
-                margin: 25px 0 0
-
-    @media ( min-width: 361px) and ( max-width: 450px)
-        .box
-            text-align: center
-            h1
-                margin: 0 25px
-            h5
-                margin: 15px
+                align-self: center
             .imgbox
-                margin: 25px 0 0 140px
-            h4
-                margin: 15px 0 85px 20px
-            .btn
-                margin: 25px 0 0
-
-    @media ( min-width: 451px) and ( max-width: 767px)
-        .box
-            text-align: center
-            h1
-                margin: 0 25px
+                align-self: center
             h5
-                margin: 15px
-            .imgbox
-                margin: 25px 0 0 180px
+                margin: 25px 0 50px
             h4
-                margin: 15px 0 85px 20px
-            .btn
-                margin: 25px 0 0
+                margin-bottom: 90px

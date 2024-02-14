@@ -17,10 +17,13 @@ section {
 #beautiful {
   background-color: #f4fafb;
 }
+#beautiful .box {
+  display: flex;
+  flex-direction: column;
+}
 #beautiful .box h1 {
   font-weight: 700;
   font-size: 60px;
-  margin-right: 80px;
 }
 #beautiful .box span {
   color: #37b7c3;
@@ -28,7 +31,7 @@ section {
 #beautiful .box h5 {
   color: #676f8b;
   font-size: 18px;
-  margin: 25px 75px 50px 0;
+  margin: 25px 40px 50px 0;
   line-height: 1.3;
 }
 #beautiful .box .btn {
@@ -36,73 +39,32 @@ section {
   font-size: 18px;
   border-radius: 5px;
   background-color: #38b6c1;
+  align-self: start;
   color: white;
 }
 #beautiful .box .imgbox {
   width: 100px;
   margin: 20px 0 10px;
+  align-self: start;
 }
 #beautiful .box h4 {
   font-size: 18px;
 }
-@media (max-width: 360px) {
+@media (max-width: 991px) {
   #beautiful .box {
     text-align: center;
   }
-  #beautiful .box h1 {
-    margin: 0 25px;
-  }
-  #beautiful .box h5 {
-    margin: 15px;
+  #beautiful .box .btn {
+    align-self: center;
   }
   #beautiful .box .imgbox {
-    margin: 25px 0 0 100px;
-  }
-  #beautiful .box h4 {
-    margin: 15px 0 85px 20px;
-  }
-  #beautiful .box .btn {
-    margin: 25px 0 0;
-  }
-}
-@media (min-width: 361px) and (max-width: 450px) {
-  #beautiful .box {
-    text-align: center;
-  }
-  #beautiful .box h1 {
-    margin: 0 25px;
+    align-self: center;
   }
   #beautiful .box h5 {
-    margin: 15px;
-  }
-  #beautiful .box .imgbox {
-    margin: 25px 0 0 140px;
+    margin: 25px 0 50px;
   }
   #beautiful .box h4 {
-    margin: 15px 0 85px 20px;
-  }
-  #beautiful .box .btn {
-    margin: 25px 0 0;
-  }
-}
-@media (min-width: 451px) and (max-width: 767px) {
-  #beautiful .box {
-    text-align: center;
-  }
-  #beautiful .box h1 {
-    margin: 0 25px;
-  }
-  #beautiful .box h5 {
-    margin: 15px;
-  }
-  #beautiful .box .imgbox {
-    margin: 25px 0 0 180px;
-  }
-  #beautiful .box h4 {
-    margin: 15px 0 85px 20px;
-  }
-  #beautiful .box .btn {
-    margin: 25px 0 0;
+    margin-bottom: 90px;
   }
 }
 
